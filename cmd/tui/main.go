@@ -37,7 +37,7 @@ func main() {
 	app := shair.NewApplication(
 		logger,
 		hostname,
-		filepath.Join(dirname, "/Downloads"), // TODO: need flag
+		dirname, // TODO: either need a flag or a config file
 		local.NewLocalShairer(logger, 8085),
 	)
 
