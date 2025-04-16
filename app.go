@@ -1,3 +1,6 @@
+// The application struct is eventually meant hold the different services: Local, Bluetooth, Remote, ..
+// and manage their lifecycle. Ideally I would want to be able to start an stop a particular service at the press
+// of a button
 package shair
 
 import (
