@@ -61,7 +61,8 @@ func (s *LocalShairer) handleRequest(
 
 	// get the sender's hostname with a dns lookup
 	// TODO: remove and let client send its name within the header
-	remoteIP := conn.LocalAddr().String()
+	remoteAddr := conn.RemoteAddr() // ← this is the client's address
+	remoteIP, _, err := net.SplitHostPort(remoteAddr.String())
 	names, err := net.LookupAddr(remoteIP)
 	if err != nil {
 		// in my local setup virtual machines are not register in the router's dns table
