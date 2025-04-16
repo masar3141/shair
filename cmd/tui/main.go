@@ -6,7 +6,6 @@ import (
 	"io"
 	"log/slog"
 	"os"
-	"path/filepath"
 
 	tea "github.com/charmbracelet/bubbletea"
 
