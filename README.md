@@ -33,8 +33,8 @@ On acceptance, the files are streamed directly to the destination.
 
 
 ## Inspiration
-- [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) — secure, no-setup file transfer via PAKE
-- [LocalSend](https://github.com/localsend/localsend) — cross-platform AirDrop alternative over local network
+- [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
+- [LocalSend](https://github.com/localsend/localsend) 
 
 ## Disclaimer
 
